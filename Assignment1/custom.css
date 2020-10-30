@@ -1,0 +1,133 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+       
+}
+
+/* Utilty Classes*/
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color:white;
+	margin-left: 30px;
+  }
+  
+  li {
+	float: left;
+  
+  }
+  
+ 
+  li a {
+	display: block;
+	color:black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	margin-left: 20px;
+  }
+  
+  li a:hover {
+	background-color:#4CAF50;
+  }
+  
+  
+
+
+.hero_image {
+	background: url(heroimage.jpg) no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	height: 100vh;
+	position: relative;
+}
+
+
+.hero_wrapper  {
+	
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.hero_wrapper h1{
+	font-size: 40px;
+}
+.container{
+	width:90%;
+	margin-left:auto;
+	margin-top:20px;
+	margin-bottom: auto;
+	margin-right: auto;
+	display:inline;
+   
+	
+}
+
+.form_code {
+	text-align: center;
+}
+
+.form_code .post_code {
+	display: block;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 2rem;
+	padding: .6rem;
+	border:none;
+	outline:none;
+}
+
+.form_code button {
+	width: 40%;
+	text-align: center;
+	background-color: #00bab1;
+	color: white;
+	padding: .6rem;
+	margin:1rem auto 0rem;
+	border: none;
+	border-radius: .3rem;
+}
+
+
+/*  Product Section */
+
+.product {
+	width: 90%;
+	margin-top: .3rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.product__list__item {
+	float: left;
+	width: 32%;
+	margin-left: .5rem;
+}
+
+
+.product__list__item:first-of-type {
+	margin-left: 0;
+}
+
+
+@media screen and (max-width: 700px) {
+	.product__list__item { 
+		width: 100%;
+		float: none;
+	}
+}
+footer {
+        background-image: linear-gradient(black, #000033);
+        padding-top: 50px;
+        padding-bottom: 50px;
+        width: 100%;
+        margin-top:550px;
+        text-align: center;
+        font-size: 25px;
+  }
+  
